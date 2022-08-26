@@ -1,0 +1,300 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+section {
+    background-color: #fff;
+}
+
+.header {
+    height: 100vh;
+    font-size: 40px;
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+    color: #2565AE;
+}
+
+h2 {
+    font-size: 50px;
+    color: #2565AE;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.subtext a {
+    font-size: 18px;
+}
+
+.header-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+nav a:hover {
+    color: #3C99DC;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: #2565AE;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button a {
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #3C99DC;
+}
+
+.button:active {
+    background-color: #a9a9a9;
+    color: #808080;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo {
+    height: 80px;
+    margin: 30px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.social:hover {
+    fill: #3C99DC;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+    margin-left: 80px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 325px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(184, 184, 184);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.project-card:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border: 1px solid #3C99DC;
+}
+
+hr {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #3C99DC;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus {
+    outline: 0;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    .hamburger:hover {
+        color: #3C99DC;
+    }
+
+    ul {
+        display: none;
+        margin: 0px;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+form {
+    margin: 35px;
+}
+
+.input-field {
+    width: 600px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1.5px solid #a9a9a9;
+    border-radius: 14px;
+    outline: none;
+    font-size: 16px;
+}
+
+.textarea-field {
+    height: 150px;
+    padding: 10px;
+}
+
+::placeholder {
+    color: #3C99DC;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+@media only screen and (max-width: 1000px) {
+    .input-field {
+        width: 300px;
+        height: 45px;
+    }
+
+    .textarea-field {
+        height: 100px;
+    }
+}
+
+.btn {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: #2565AE;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #3C99DC;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #a9a9a9;
+    color: #808080;
+}
